@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "mocha --recursive",
     "eject": "react-scripts eject",
-    "dev": "nodemon server.js"
+    "dev": "npm start"
   },
   "eslintConfig": {
     "extends": [

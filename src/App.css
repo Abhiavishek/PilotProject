@@ -1,0 +1,134 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.task-list {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.edit-form {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.edit-form input,
+.edit-form select,
+.edit-form button {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.edit-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.edit-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.task-list h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list li strong {
+  font-size: 18px;
+  color: #333;
+}
+
+.task-list li p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.task-list li span {
+  font-size: 14px;
+  color: #777;
+}
+
+.task-list li button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.task-list li button:hover {
+  background-color: #ff0000;
+}
+
+.add-task {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.add-task h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.add-task input[type="text"],
+.add-task select,
+.add-task button {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.add-task button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #45a049;
+}
